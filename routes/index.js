@@ -37,7 +37,7 @@ router.post('/adduser', function(req, res) {
 	var userName = req.body.username;
 	var userEmail = req.body.username;
 
-	// set ythe collection
+	// set the collection
 	var collection = db.get('usercollection');
 
 	// submit to the database
@@ -58,20 +58,6 @@ router.post('/adduser', function(req, res) {
 	});
 });
 
-
-
-
-
-
 module.exports = router;
-
-
-
-
-
-
-
-
-
 
 
